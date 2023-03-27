@@ -91,8 +91,8 @@ Do the following:
 
 function dogYears(a){
   return a;
-  let dogYears = a * 7;
-  return dogYears;
+  let humanYears= a * 7;
+  return humanYears;
 }
 dogYears(6);
 
@@ -145,21 +145,21 @@ NOTE 2: This is a great time to check the tests to see what it expects, versus w
 */  
 
 function hungryDog(weight, age){
-  if(age >= 1, weight <= 5) {
+  if(age >= .16, age <= .33) {
+    return weight * .1;
+  } else if(age >= .33, age <= .58) {
+    return weight * .05;
+  } else if(age >= .58, age < 1) {
+    return weight * .04;
+  } else if(age >= 1, weight <= 5) {
     return weight * .05;
   } else if(age >= 1, weight > 5, weight <=10) {
     return weight * .04;
   } else if(age >= 1, weight > 10, weight <=15) {
     return weight * .03;
-  } else if(age >= 1, weight > 15) {
-    return weight * .02;
-  } else if(age >= .16, age <= .33) {
-    return weight * .1;
-  } else if(age >= .33, age <= .58) {
-    return weight * .05;
   } else {
-    return weight * .04;
-  }
+    return weight * .02;
+  } 
 }
 hungryDog(23, 7)
 
