@@ -194,9 +194,9 @@ if(computer === 0) {
   computer = 'scissors';
 }
 function game(user, computer){
-  if(computer === user) {
+  if(user === computer) {
     return "it's a tie";
-  } else if(user === 'rock' && user === 'scissors') {
+  } else if(user === 'rock' && computer === 'scissors') {
     return "you win!";
   } else if(user === 'paper' && computer === 'rock') {
     return "you win!";
