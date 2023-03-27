@@ -20,7 +20,7 @@ Do the following:
    HINT: no function required
 */
 
-const votingAge = 18
+const votingAge = 18;
 if(votingAge <= 18) {
   console.log(true);
 }
@@ -37,9 +37,15 @@ Do the following:
    HINT: no function required
 */
 
-
-
-
+let firstThing = 'poopoo';
+let secondThing = 'peepee';
+if(firstThing === secondThing) {
+  console.log(false);
+} else {
+  console.log(true);
+  firstThing = 'peepee';
+  console.log(firstThing);
+}
 
 /*
 Task 1c - Convert Strings to Numbers (not auto tested)
