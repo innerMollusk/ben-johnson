@@ -90,8 +90,7 @@ Do the following:
 
 
 function dogYears(a){
-  return a;
-  let humanYears= a * 7;
+  let humanYears = a * 7;
   return humanYears;
 }
 dogYears(6);
