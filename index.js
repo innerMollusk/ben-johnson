@@ -221,7 +221,7 @@ Using the miles function below do the following:
 */
 
 function miles(a){
-  let miles = a * .62;
+  let miles = a * .621371;
   return miles;
 }
 miles(10);
@@ -237,7 +237,7 @@ Using the feet function below do the following:
 */
 
 function feet(a){
-  let feet = a * .033;
+  let feet = a * .03048;
   return feet;
 }
 feet(10000);
