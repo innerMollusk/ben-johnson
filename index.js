@@ -237,7 +237,7 @@ Using the feet function below do the following:
 */
 
 function feet(a){
-  let feet = a * .03048;
+  let feet = a / 30.48;
   return feet;
 }
 feet(10000);
