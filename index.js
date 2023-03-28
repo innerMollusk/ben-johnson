@@ -236,9 +236,11 @@ Using the feet function below do the following:
 3. Return number of feet
 */
 
-function feet(/*add your code here*/){
-  /*add your code here*/
+function feet(a){
+  let feet = a * .033;
+  return feet;
 }
+feet(10000);
 
 
 
