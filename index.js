@@ -311,9 +311,17 @@ HINT - try looking up the .includes() method
 */
 
 
-function vowelCounter(/*add your code here*/) {
-  /*add your code here*/
+function vowelCounter(string) {
+  let vowelsCount = 0;
+  const vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
+  for(let char of string) {
+    if(vowels.includes(char)) {
+      vowelsCount++;
+    }
+  }
+  return vowelsCount;
 }
+vowelCounter('benjamin');
 
 
 
